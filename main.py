@@ -13,6 +13,8 @@ soup = bs(response.text, 'html.parser')
 # whole_price = float(f'{price_whole}{price_fraction}')
 # print(whole_price)
 
+print('un altra riga ')
+
 price_html_whole = soup.find(class_='a-offscreen')
 price = price_html_whole.getText().split('$')[1]
 
