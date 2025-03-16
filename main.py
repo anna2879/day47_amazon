@@ -17,3 +17,5 @@ price_html_whole = soup.find(class_='a-offscreen')
 price = price_html_whole.getText().split('$')[1]
 
 
+
+print('ciao pajaritas')
